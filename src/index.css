@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* .app {} */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: #F55A5A;
+  width: 100%;
+}
+
+.navbar--tittle {
+  color: white;
+  font-weight: 700;
+}
+
+.navbar--logo {
+  padding-right: 0.5rem;
+  width: 1.5rem;
+  color: white;
+}
+
+.card {
+  display: flex;
+  margin: auto;
+  padding: 1rem 1rem;
+  width: 40rem;
+
+}
+
+.card > .card--info{
+  align-items: center;
+}
+
+.card--badge {
+  position: absolute;
+}
+
+.card--badge > img{
+  max-width: 6rem;
+  padding: 0.5rem;
+}
+
+.card--image {
+  width: 13rem;
+  border-radius: 1rem;
+}
+
+.card--info{
+  padding: 1rem 2rem;
+}
+
+.card--location {
+  display: flex;
+}
+
+.card--icon {
+  height: 0.75rem;
+}
+
+.card--place-location {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+}
+
+.card--link {
+  font-size: 0.65rem;
+  color: #918E9B;
+}
+
+.card--place-name {
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.card--description {
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: -0.02rem;
+  color: #2B283A;
+}
