@@ -6,7 +6,7 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-/* .app {} */
+.app {  min-width: fit-content;}
 
 .navbar {
   display: flex;
@@ -47,6 +47,7 @@ body {
 .card--badge > img{
   max-width: 6rem;
   padding: 0.5rem;
+  opacity: 90%;
 }
 
 .card--image {
