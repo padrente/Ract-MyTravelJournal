@@ -1,1 +1,1 @@
-# React - My Travel Journal
+# React.js - My Travel Journal
