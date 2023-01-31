@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3rem;
+  height: 5.5vh;
   background-color: #F55A5A;
   width: 100%;
 }
@@ -24,16 +24,21 @@ body {
 
 .navbar--logo {
   padding-right: 0.5rem;
-  width: 1.5rem;
+  width: 1.25vw;
   color: white;
+}
+
+.place-cards {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  margin: auto;
 }
 
 .card {
   display: flex;
-  margin: auto;
-  padding: 1rem 1rem;
-  width: 40rem;
-
+  padding: 0.5rem;
+  width: 48vw;
 }
 
 .card > .card--info{
@@ -45,18 +50,18 @@ body {
 }
 
 .card--badge > img{
-  max-width: 6rem;
   padding: 0.5rem;
   opacity: 90%;
+  width: 15%;
 }
 
 .card--image {
-  width: 13rem;
-  border-radius: 1rem;
+  height: 25vh;
+  border-radius: 16px;
 }
 
 .card--info{
-  padding: 1rem 2rem;
+  padding: 16px 32px;
 }
 
 .card--location {
@@ -64,14 +69,14 @@ body {
 }
 
 .card--icon {
-  height: 0.75rem;
+  height: 1.3vh;
 }
 
 .card--place-location {
   font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
-  padding-left: 1rem;
+  padding-left: 0.7rem;
   padding-right: 1.5rem;
 }
 
@@ -83,8 +88,8 @@ body {
 .card--place-name {
   font-size: 1.75rem;
   font-weight: bold;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-top: 16px;
+  padding-bottom: 32px;
 }
 
 .card--description {
